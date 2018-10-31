@@ -62,11 +62,52 @@ h4 {
 
 
 
+  body {
+  margin: 40px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-gap: 10px;
+  background-color: #ffffff;
+  color: #444;
+}
+
+.box {
+  background-color: #ffffff;
+  color: #fff;
+  border-radius: 5px;
+  position: static;
+  padding: 7px;
+  font-size: 150%;
+}
+
+aside {
+  min-height: 350px;
+  background-color: #e63c74;
+  grid-row: 2;
+  grid-column: 1 / 2;
+}
+
+section {
+
+  min-height: 350px;
+  background-color: #359bb4;
+  grid-row: 2;
+  grid-column: 2/ 5;
+}
+
+
 </style>
 </head>
 
 
 <body>
+
+
+
+
   <div id="container">
     <header>
       <h1>
@@ -74,32 +115,49 @@ h4 {
       </h1>
     </header>
 
-    <section>
-      <h1>Major Projects</h1>
-      <ol>
-        <li><a href="https://anadamsx.github.io/des.github.io/">Project 1</a></li>
-        <li><a href="#">Project 2</a></li>
-        <li><a href="#">Project 3</a></li>
-      </ol>
-    </section>
+</div>
 
-    <section>
+
+
+
+
+
+
+
+
+
+  <div class="wrapper">
+  <div class="box a">
+      <h1>Major Projects</h1>
+
+        <a href="https://anadamsx.github.io/des.github.io/">Project 1</a><br>
+      <a href="#">Project 2</a><br>
+      <a href="#">Project 3</a><br>
+
+  </div>
+  <div class="box b">
+
+<section>
       <h2>Exercises</h2>
-      <ol>
-        <li><a href="./ex1.html">Ex 1</a></li>
-        <li>
-          <ol><li><a href="./ex2/ex01.html">Ex 2.01</a></li>
-<li><a href="./ex2/ex02.html">Ex 2.02</a></li>
-<li><a href="./ex2/ex03.html">Ex 2.03</a></li></ol>
-          </li>
+
+        <a href="./ex1.html">Ex 1</a><br>
+
+          <a href="./ex2/ex01.html">Ex 2.01</a><br>
+<a href="./ex2/ex02.html">Ex 2.02</a><br>
+<a href="./ex2/ex03.html">Ex 2.03</a><br>
+<ol>
         <li><a href="./ex3.html">Ex 3</a></li>
         <li><a href="./ex4/boxmodel-game.html">Ex 4</a></li>
         <li><a href="./poppins.html">Ex 5</a></li>
         <li><a href="#">Ex 7</a></li>
       </ol>
-    </section>
 
-    <section>
+</section>
+
+  </div>
+  <div class="box c">
+
+    <aside>
       <h2>Blogs</h2>
       <ol>
         <li><a href="./blogentryone.html">BLOG ENTRY #1</a></li>
@@ -113,43 +171,45 @@ h4 {
         <li><a href="./poppins.html">Ex 5</a></li>
         <li><a href="#">Ex 7</a></li>
       </ol>
-    </section>
-
-
-
-    <aside>
-      <h3>Useful Links</h3>
-      <ul>
-        <li><h4>Useful Tools</h4>
-          <ul>
-            <li><a href="http://wbwip.com/wbw/emailencoder.html">Encode Email Addresses</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-          </ul>
-        </li>
-
-        <li><h4>Category 2</h4>
-          <ul>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-          </ul>
-        </li>
-
-      </ul>
-
     </aside>
+
   </div>
+  <div class="box d">
+
+      <h3>Useful Links</h3>
+
+        <h4>Useful Tools</h4>
+
+          <a href="http://wbwip.com/wbw/emailencoder.html">Encode Email Addresses</a><br>
+          <a href="https://gridbyexample.com/examples/">Grid by Example</a><br>
+            <a href="#">Link</a><br>
+
+</div>
+
+
+
+  <div class="box e">
+
+
+
+          <h3>Category 2</h3>
+
+        <a href="#">Link</a><br>
+                <a href="#">Link</a><br>
+                <a href="#">Link</a><br>
+
+
+
+
+  </div>
+  <div class="box f">F</div>
+</div>
 
   <footer>
     <p>Ana Rodriguez Adams</p>
-    <p>Contact:<a href="&#097;&#112;&#097;&#100;&#097;&#109;&#115;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">&#097;&#112;&#097;&#100;&#097;&#109;&#115;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;</a></p>
+    <p>Contact:<a href="&#097;&#112;&#097;&#100;&#097;&#109;&#115;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">&#097;&#112;&#097;&#100;&#097;&#109;&#115;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117; </a></p>
     <p><a href="http://validator.w3.org/check?uri=referer">Valid HTML 5</a></p>
   </footer>
 
 </body>
-
-
-
-
-    </html>
+</html>
